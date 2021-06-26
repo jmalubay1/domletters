@@ -1,9 +1,9 @@
 prog :=domletters
 
+all: build copy
+
 build:
-	cargo build --release
+	cargo build
 
 install:
-	cp target/release/$(prog) ~/$(prog)
-
-all: build install
+	cp target/debug/$(prog) .
