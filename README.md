@@ -1,5 +1,5 @@
 # domletters — count dominant letters
-<Your Name> and Bart Massey 2021
+Jordan Malubay and Bart Massey 2021
 
 This repository contains a program that counts dominant
 letters in alphabetic words of an ASCII text read from
@@ -29,34 +29,14 @@ upper and lowercase letters as equivalent. Examples:
 
 ## Build and Run
 
-(*These instructions are for a compiled language like
-C++. For an interpreted language like Python, delete these
-instructions and use those below.*)
-
-To build the program, type `make`. This will use the file
-named `Makefile` to compile the program.
+To build the program, type `cargo build`. This will use Rust's
+build system to compile the program.
 
 To run the program once it is built, say
 
-    ./domletters <input.txt
+    ./target/debug/domletters <input.txt
 
 where `input.txt` is the input file to be processed.
-
-## Build and Run
-
-(*These instructions are for an interpreted language like
-Python. For a compiled language like C++, delete these
-instructions and use those above. Note that your script
-should be marked executable and set up to run on a Linux box
-using a standard interpreter: for example, in Python the
-first line should be something like `#!/usr/bin/python3`.*)
-
-To run the program, say
-
-    ./domletters <input.txt
-
-where `input.txt` is the input file to be processed.
-
 ## Example
 
 When run using the file `sentence.txt` in this distribution,
