@@ -1,6 +1,5 @@
 /// Jordan Malubay CS461
 /// Dominant letters binary
-
 use std::collections::HashMap;
 use std::env;
 use std::fs;
