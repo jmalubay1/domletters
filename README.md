@@ -29,14 +29,19 @@ upper and lowercase letters as equivalent. Examples:
 
 ## Build and Run
 
-To build the program, type `cargo build`. This will use Rust's
-build system to compile the program.
+(*These instructions are for a compiled language like
+C++. For an interpreted language like Python, delete these
+instructions and use those below.*)
+
+To build the program, type `make`. This will use the file
+named `Makefile` to compile the program.
 
 To run the program once it is built, say
 
-    ./target/debug/domletters <input.txt
+    ./domletters <input.txt
 
 where `input.txt` is the input file to be processed.
+
 ## Example
 
 When run using the file `sentence.txt` in this distribution,
